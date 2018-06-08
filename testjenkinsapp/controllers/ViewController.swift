@@ -1,7 +1,4 @@
-//
-//  ViewController.swift
-//  testjenkinsapp
-//
+
 //  Created by mescurra on 6/8/18.
 //  Copyright © 2018 mescurra. All rights reserved.
 //
@@ -21,6 +18,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadPickerView()
+        print("viewDidLoad")
     }
 
     override func didReceiveMemoryWarning() {
